@@ -3,11 +3,8 @@
   "amdName": "preactRedux",
   "version": "2.0.3",
   "description": "Wraps react-redux up for Preact, without preact-compat",
-  "main": "dist/preact-redux.js",
-  "module": "dist/preact-redux.esm.js",
+  "main": "src/index.js",
   "types": "src/preact-redux.d.ts",
-  "jsnext:main": "dist/preact-redux.esm.js",
-  "minified:main": "dist/preact-redux.min.js",
   "scripts": {
     "clean": "rimraf dist/",
     "build": "npm-run-all clean transpile:* minify size",
